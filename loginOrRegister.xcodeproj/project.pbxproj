@@ -17,6 +17,25 @@
 		867C53C72767E67B00B0F542 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C62767E67B00B0F542 /* CustomerView.swift */; };
 		867C53C92767F23900B0F542 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C82767F23800B0F542 /* UserAuth.swift */; };
 		867C53CB2767F66100B0F542 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 867C53CA2767F66100B0F542 /* GoogleService-Info.plist */; };
+		867C53CE2768570E00B0F542 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53CD2768570E00B0F542 /* FirebaseAuth */; };
+		867C53D02768570E00B0F542 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53CF2768570E00B0F542 /* FirebaseFirestore */; };
+		867C53D22768570E00B0F542 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53D12768570E00B0F542 /* FirebaseFirestoreSwift-Beta */; };
+		867C53D42768570E00B0F542 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53D32768570E00B0F542 /* FirebaseStorage */; };
+		867C53D627685A7000B0F542 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53D527685A7000B0F542 /* Modifiers.swift */; };
+		867C53DD27685B2100B0F542 /* LoginViewFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53DA27685B2100B0F542 /* LoginViewFields.swift */; };
+		867C53DE27685B2100B0F542 /* Design_LoginView_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53DB27685B2100B0F542 /* Design_LoginView_1.swift */; };
+		867C53DF27685B2100B0F542 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53DC27685B2100B0F542 /* LoginView.swift */; };
+		867C53E127685B5900B0F542 /* CustomTextField_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53E027685B5900B0F542 /* CustomTextField_2.swift */; };
+		867C53E727685C9D00B0F542 /* StoreUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53E627685C9D00B0F542 /* StoreUser.swift */; };
+		867C53F127685CD700B0F542 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 867C53EB27685CD700B0F542 /* Roboto-Light.ttf */; };
+		867C53F227685CD700B0F542 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 867C53EC27685CD700B0F542 /* Raleway-SemiBold.ttf */; };
+		867C53F327685CD700B0F542 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 867C53ED27685CD700B0F542 /* Raleway-Regular.ttf */; };
+		867C53F427685CD700B0F542 /* Install-Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53EE27685CD700B0F542 /* Install-Instructions.swift */; };
+		867C53F527685CD700B0F542 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 867C53EF27685CD700B0F542 /* Roboto-Thin.ttf */; };
+		867C53F627685CD700B0F542 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 867C53F027685CD700B0F542 /* Raleway-Bold.ttf */; };
+		867C53FA27685DD100B0F542 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53F727685DD100B0F542 /* FirebaseManager.swift */; };
+		867C53FB27685DD100B0F542 /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53F827685DD100B0F542 /* AppleSignInButton.swift */; };
+		867C53FC27685DD100B0F542 /* Extension+Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53F927685DD100B0F542 /* Extension+Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +50,21 @@
 		867C53C62767E67B00B0F542 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
 		867C53C82767F23800B0F542 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 		867C53CA2767F66100B0F542 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		867C53D527685A7000B0F542 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		867C53DA27685B2100B0F542 /* LoginViewFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewFields.swift; sourceTree = "<group>"; };
+		867C53DB27685B2100B0F542 /* Design_LoginView_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design_LoginView_1.swift; sourceTree = "<group>"; };
+		867C53DC27685B2100B0F542 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		867C53E027685B5900B0F542 /* CustomTextField_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField_2.swift; sourceTree = "<group>"; };
+		867C53E627685C9D00B0F542 /* StoreUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreUser.swift; sourceTree = "<group>"; };
+		867C53EB27685CD700B0F542 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		867C53EC27685CD700B0F542 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		867C53ED27685CD700B0F542 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		867C53EE27685CD700B0F542 /* Install-Instructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Install-Instructions.swift"; sourceTree = "<group>"; };
+		867C53EF27685CD700B0F542 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		867C53F027685CD700B0F542 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		867C53F727685DD100B0F542 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		867C53F827685DD100B0F542 /* AppleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
+		867C53F927685DD100B0F542 /* Extension+Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Screen.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867C53D22768570E00B0F542 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				867C53D42768570E00B0F542 /* FirebaseStorage in Frameworks */,
+				867C53CE2768570E00B0F542 /* FirebaseAuth in Frameworks */,
+				867C53D02768570E00B0F542 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,11 +104,10 @@
 				867C53CA2767F66100B0F542 /* GoogleService-Info.plist */,
 				867C53B22767E37D00B0F542 /* loginOrRegisterApp.swift */,
 				867C53B42767E37D00B0F542 /* ContentView.swift */,
-				867C53C02767E3E000B0F542 /* AppNavigationView.swift */,
-				867C53C82767F23800B0F542 /* UserAuth.swift */,
-				867C53C62767E67B00B0F542 /* CustomerView.swift */,
-				867C53C42767E66E00B0F542 /* WelcomeView.swift */,
-				867C53C22767E65F00B0F542 /* AdminView.swift */,
+				867C53E827685CA200B0F542 /* Model */,
+				867C53E927685CAE00B0F542 /* ViewModel */,
+				867C53E227685BBF00B0F542 /* View */,
+				867C53D727685A7700B0F542 /* Utils */,
 				867C53B62767E38300B0F542 /* Assets.xcassets */,
 				867C53B82767E38300B0F542 /* Preview Content */,
 			);
@@ -83,6 +120,94 @@
 				867C53B92767E38300B0F542 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		867C53D727685A7700B0F542 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				867C53EA27685CD700B0F542 /* Custom Fonts */,
+				867C53F927685DD100B0F542 /* Extension+Screen.swift */,
+				867C53F727685DD100B0F542 /* FirebaseManager.swift */,
+				867C53F827685DD100B0F542 /* AppleSignInButton.swift */,
+				867C53E027685B5900B0F542 /* CustomTextField_2.swift */,
+				867C53D527685A7000B0F542 /* Modifiers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		867C53D927685B2100B0F542 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				867C53DB27685B2100B0F542 /* Design_LoginView_1.swift */,
+				867C53DA27685B2100B0F542 /* LoginViewFields.swift */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		867C53E227685BBF00B0F542 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				867C53C02767E3E000B0F542 /* AppNavigationView.swift */,
+				867C53C42767E66E00B0F542 /* WelcomeView.swift */,
+				867C53E527685C2500B0F542 /* Customer */,
+				867C53E427685C1A00B0F542 /* Admin */,
+				867C53E327685C0E00B0F542 /* Welcome */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		867C53E327685C0E00B0F542 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				867C53DC27685B2100B0F542 /* LoginView.swift */,
+				867C53D927685B2100B0F542 /* Designs */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		867C53E427685C1A00B0F542 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				867C53C22767E65F00B0F542 /* AdminView.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		867C53E527685C2500B0F542 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				867C53C62767E67B00B0F542 /* CustomerView.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		867C53E827685CA200B0F542 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				867C53E627685C9D00B0F542 /* StoreUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		867C53E927685CAE00B0F542 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				867C53C82767F23800B0F542 /* UserAuth.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		867C53EA27685CD700B0F542 /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				867C53EB27685CD700B0F542 /* Roboto-Light.ttf */,
+				867C53EC27685CD700B0F542 /* Raleway-SemiBold.ttf */,
+				867C53ED27685CD700B0F542 /* Raleway-Regular.ttf */,
+				867C53EE27685CD700B0F542 /* Install-Instructions.swift */,
+				867C53EF27685CD700B0F542 /* Roboto-Thin.ttf */,
+				867C53F027685CD700B0F542 /* Raleway-Bold.ttf */,
+			);
+			path = "Custom Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +226,12 @@
 			dependencies = (
 			);
 			name = loginOrRegister;
+			packageProductDependencies = (
+				867C53CD2768570E00B0F542 /* FirebaseAuth */,
+				867C53CF2768570E00B0F542 /* FirebaseFirestore */,
+				867C53D12768570E00B0F542 /* FirebaseFirestoreSwift-Beta */,
+				867C53D32768570E00B0F542 /* FirebaseStorage */,
+			);
 			productName = loginOrRegister;
 			productReference = 867C53AF2767E37D00B0F542 /* loginOrRegister.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 867C53A62767E37D00B0F542;
+			packageReferences = (
+				867C53CC2768570E00B0F542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 867C53B02767E37D00B0F542 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,9 +277,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867C53F527685CD700B0F542 /* Roboto-Thin.ttf in Resources */,
 				867C53BA2767E38300B0F542 /* Preview Assets.xcassets in Resources */,
+				867C53F327685CD700B0F542 /* Raleway-Regular.ttf in Resources */,
 				867C53B72767E38300B0F542 /* Assets.xcassets in Resources */,
+				867C53F127685CD700B0F542 /* Roboto-Light.ttf in Resources */,
 				867C53CB2767F66100B0F542 /* GoogleService-Info.plist in Resources */,
+				867C53F227685CD700B0F542 /* Raleway-SemiBold.ttf in Resources */,
+				867C53F627685CD700B0F542 /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,11 +296,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				867C53C52767E66E00B0F542 /* WelcomeView.swift in Sources */,
+				867C53DD27685B2100B0F542 /* LoginViewFields.swift in Sources */,
 				867C53B52767E37D00B0F542 /* ContentView.swift in Sources */,
+				867C53E127685B5900B0F542 /* CustomTextField_2.swift in Sources */,
+				867C53F427685CD700B0F542 /* Install-Instructions.swift in Sources */,
+				867C53E727685C9D00B0F542 /* StoreUser.swift in Sources */,
 				867C53C72767E67B00B0F542 /* CustomerView.swift in Sources */,
 				867C53B32767E37D00B0F542 /* loginOrRegisterApp.swift in Sources */,
+				867C53FB27685DD100B0F542 /* AppleSignInButton.swift in Sources */,
+				867C53D627685A7000B0F542 /* Modifiers.swift in Sources */,
 				867C53C32767E65F00B0F542 /* AdminView.swift in Sources */,
+				867C53FC27685DD100B0F542 /* Extension+Screen.swift in Sources */,
 				867C53C12767E3E000B0F542 /* AppNavigationView.swift in Sources */,
+				867C53DF27685B2100B0F542 /* LoginView.swift in Sources */,
+				867C53FA27685DD100B0F542 /* FirebaseManager.swift in Sources */,
+				867C53DE27685B2100B0F542 /* Design_LoginView_1.swift in Sources */,
 				867C53C92767F23900B0F542 /* UserAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +514,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		867C53CC2768570E00B0F542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		867C53CD2768570E00B0F542 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 867C53CC2768570E00B0F542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		867C53CF2768570E00B0F542 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 867C53CC2768570E00B0F542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		867C53D12768570E00B0F542 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 867C53CC2768570E00B0F542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		867C53D32768570E00B0F542 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 867C53CC2768570E00B0F542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 867C53A72767E37D00B0F542 /* Project object */;
 }

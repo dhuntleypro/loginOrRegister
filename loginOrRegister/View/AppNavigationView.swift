@@ -8,38 +8,32 @@
 import SwiftUI
 
 
-
-
-import SwiftUI
-
 struct AppNavigationView: View {
     @EnvironmentObject var vm: UserAuth
 
-
-  //  @ObservedObject private var vm = UserAuth()
-   // var containedViewType: FBAuthState = .signedOut
-    
-    
     var body: some View {
         ZStack {
 
             if vm.userIsLoggedin && vm.adminIsLoggedin {
-                NavigationView() {
                     AdminView()
-                }
+                
             }
             
             else if vm.userIsLoggedin && vm.adminIsLoggedin == false {
-                NavigationView() {
+                
                     CustomerView()
-                }
+                
             }
             
             else  if vm.userIsLoggedin == false {
-                WelcomeView()
+                    WelcomeView()
+                
             }
             
-            else { Text("error loading....") }
+            else { Text("error loading....")
+                    .foregroundColor(.black)
+            }
+            
            
         }
         .onAppear() {
