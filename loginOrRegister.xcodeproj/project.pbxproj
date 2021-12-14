@@ -16,7 +16,6 @@
 		867C53C52767E66E00B0F542 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C42767E66E00B0F542 /* WelcomeView.swift */; };
 		867C53C72767E67B00B0F542 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C62767E67B00B0F542 /* CustomerView.swift */; };
 		867C53C92767F23900B0F542 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C82767F23800B0F542 /* UserAuth.swift */; };
-		867C53CB2767F66100B0F542 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 867C53CA2767F66100B0F542 /* GoogleService-Info.plist */; };
 		867C53CE2768570E00B0F542 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53CD2768570E00B0F542 /* FirebaseAuth */; };
 		867C53D02768570E00B0F542 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53CF2768570E00B0F542 /* FirebaseFirestore */; };
 		867C53D22768570E00B0F542 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 867C53D12768570E00B0F542 /* FirebaseFirestoreSwift-Beta */; };
@@ -36,6 +35,7 @@
 		867C53FA27685DD100B0F542 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53F727685DD100B0F542 /* FirebaseManager.swift */; };
 		867C53FB27685DD100B0F542 /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53F827685DD100B0F542 /* AppleSignInButton.swift */; };
 		867C53FC27685DD100B0F542 /* Extension+Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53F927685DD100B0F542 /* Extension+Screen.swift */; };
+		867C53FF2768BA5900B0F542 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 867C53FE2768BA5900B0F542 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,6 @@
 		867C53C42767E66E00B0F542 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		867C53C62767E67B00B0F542 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
 		867C53C82767F23800B0F542 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
-		867C53CA2767F66100B0F542 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		867C53D527685A7000B0F542 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		867C53DA27685B2100B0F542 /* LoginViewFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewFields.swift; sourceTree = "<group>"; };
 		867C53DB27685B2100B0F542 /* Design_LoginView_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design_LoginView_1.swift; sourceTree = "<group>"; };
@@ -65,6 +64,8 @@
 		867C53F727685DD100B0F542 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		867C53F827685DD100B0F542 /* AppleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
 		867C53F927685DD100B0F542 /* Extension+Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Screen.swift"; sourceTree = "<group>"; };
+		867C53FD2768B93000B0F542 /* loginOrRegister.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = loginOrRegister.entitlements; sourceTree = "<group>"; };
+		867C53FE2768BA5900B0F542 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +102,8 @@
 		867C53B12767E37D00B0F542 /* loginOrRegister */ = {
 			isa = PBXGroup;
 			children = (
-				867C53CA2767F66100B0F542 /* GoogleService-Info.plist */,
+				867C53FE2768BA5900B0F542 /* GoogleService-Info.plist */,
+				867C53FD2768B93000B0F542 /* loginOrRegister.entitlements */,
 				867C53B22767E37D00B0F542 /* loginOrRegisterApp.swift */,
 				867C53B42767E37D00B0F542 /* ContentView.swift */,
 				867C53E827685CA200B0F542 /* Model */,
@@ -282,9 +284,9 @@
 				867C53F327685CD700B0F542 /* Raleway-Regular.ttf in Resources */,
 				867C53B72767E38300B0F542 /* Assets.xcassets in Resources */,
 				867C53F127685CD700B0F542 /* Roboto-Light.ttf in Resources */,
-				867C53CB2767F66100B0F542 /* GoogleService-Info.plist in Resources */,
 				867C53F227685CD700B0F542 /* Raleway-SemiBold.ttf in Resources */,
 				867C53F627685CD700B0F542 /* Raleway-Bold.ttf in Resources */,
+				867C53FF2768BA5900B0F542 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = loginOrRegister/loginOrRegister.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"loginOrRegister/Preview Content\"";
@@ -468,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = loginOrRegister/loginOrRegister.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"loginOrRegister/Preview Content\"";

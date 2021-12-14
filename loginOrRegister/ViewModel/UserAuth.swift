@@ -64,7 +64,6 @@ class UserAuth: ObservableObject {
     
     func LoginCustomer() {
         
-        
         // firebase...
         FirebaseManager.shared.auth.signIn(withEmail: email, password: password) {  result, err in
             if let err = err {
@@ -84,7 +83,7 @@ class UserAuth: ObservableObject {
     }
     
     // [ firebase - create user ]
-    private func createNewAccount() {
+     func createNewAccount() {
         self.loginStatusMessage = "You must select an avatar image"
         
         FirebaseManager.shared.auth.createUser(withEmail: email, password: password) { result, err in
@@ -98,16 +97,9 @@ class UserAuth: ObservableObject {
             self.loginStatusMessage = "Successfully created user: \(result?.user.uid ?? "")"
             
             self.storeUserInformation()
+            self.LoginCustomer()
             
-            // Admin
-            if self.userIsLoggedin && self.adminIsLoggedin {
-                self.LoginAdmin()
-                
-            // customer
-            } else if self.userIsLoggedin && self.adminIsLoggedin {
-                self.LoginCustomer()
-
-            }
+            
         }
         
     }

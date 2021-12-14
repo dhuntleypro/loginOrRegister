@@ -101,9 +101,10 @@ struct AppleSignInButton: View {
                                     print(error?.localizedDescription as Any)
                                     return
                                 }
+                                self.userAuth.userIsLoggedin = true
                                 print("signed in")
-                                self.userAuth.userIsLoggedin = false
-                                
+
+                              //  self.userAuth.LoginCustomer()
                                 // back up to firebase....
                                 
 //                                guard let uid = FirebaseManager.shared.auth.currentUser?.uid else { return }

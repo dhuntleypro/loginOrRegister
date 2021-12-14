@@ -62,26 +62,14 @@ struct LoginViewFields: View {
                     if showRegister == true {
                         
                         // register ....
-                        if  vm.adminIsLoggedin == true {
-                            vm.LoginAdmin()
-                        } else
+                        vm.createNewAccount()
                         
-                        if vm.adminIsLoggedin == false {
-                            vm.LoginCustomer()
-                        }
                     }
                     
                     else if showRegister == false {
                         
                         // login ...
-                        if  vm.adminIsLoggedin == true {
-                            vm.LoginAdmin()
-                        } else
-                        
-                        if vm.adminIsLoggedin == false {
-                            vm.LoginCustomer()
-                        }
-                        
+                        vm.LoginAdmin()
                         
                     }
                 
@@ -91,7 +79,7 @@ struct LoginViewFields: View {
                         .opacity(0.8)
                 }
                 .padding(8)
-                .disabled(vm.password != vm.re_Enter_Password)
+                .disabled(showRegister && vm.password != vm.re_Enter_Password)
                 
                 // cheat .... (fix) should navigate based on state envirment....
                 .fullScreenCover(isPresented: $vm.userIsLoggedin ) {
