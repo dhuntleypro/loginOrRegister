@@ -11,7 +11,7 @@ import SwiftUI
 struct loginOrRegisterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppNavigationView().environmentObject(UserAuth())
         }
     }
 }

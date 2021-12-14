@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum FBAuthState {
-    case undefined, signedOut, signedInAsAdmin , signedInAsCustomer
+    case signedOut, signedInAsAdmin , signedInAsCustomer
 }
 
 struct ContentView: View {

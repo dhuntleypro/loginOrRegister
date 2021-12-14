@@ -7,10 +7,48 @@
 
 import SwiftUI
 
+
+
+
+import SwiftUI
+
 struct AppNavigationView: View {
+    @EnvironmentObject var vm: UserAuth
+
+
+  //  @ObservedObject private var vm = UserAuth()
+   // var containedViewType: FBAuthState = .signedOut
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+
+            if vm.userIsLoggedin && vm.adminIsLoggedin {
+                NavigationView() {
+                    AdminView()
+                }
+            }
+            
+            else if vm.userIsLoggedin && vm.adminIsLoggedin == false {
+                NavigationView() {
+                    CustomerView()
+                }
+            }
+            
+            else  if vm.userIsLoggedin == false {
+                WelcomeView()
+            }
+            
+            else { Text("error loading....") }
+           
+        }
+        .onAppear() {
+          //  userAuth.fetchCurrentUser()
+          //  containedView()
+        }
     }
+        
+
 }
 
 struct AppNavigationView_Previews: PreviewProvider {
@@ -22,25 +60,36 @@ struct AppNavigationView_Previews: PreviewProvider {
 
 
 
+
+//
+//struct AppNavigationView: View {
+//    var body: some View {
+//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//    }
+//}
+
+
+
+
 //
 //import SwiftUI
 //
 //struct AppNavigation: View {
-//    
+//
 ////    @EnvironmentObject var userAuth: UserAuth
-//    
-//    
+//
+//
 //    @State var containedViewType: FBAuthState = .undefined
-//    
+//
 //    var body: some View {
 //        VStack {
-//            
+//
 //           // containedView()
-//            
+//
 //            switch containedViewType {
 //            case .undefined :
 //                if FirebaseManager.shared.auth.currentUser?.uid != nil && userAuth.isAdmin == true {  AnyView(AdminView())
-//                    
+//
 //                } else if FirebaseManager.shared.auth.currentUser?.uid != nil && userAuth.isAdmin == false {  AnyView(DashboardView())
 //                } else {
 //                    AnyView(WelcomeView())

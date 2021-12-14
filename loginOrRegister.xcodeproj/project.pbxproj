@@ -12,6 +12,11 @@
 		867C53B72767E38300B0F542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867C53B62767E38300B0F542 /* Assets.xcassets */; };
 		867C53BA2767E38300B0F542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867C53B92767E38300B0F542 /* Preview Assets.xcassets */; };
 		867C53C12767E3E000B0F542 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C02767E3E000B0F542 /* AppNavigationView.swift */; };
+		867C53C32767E65F00B0F542 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C22767E65F00B0F542 /* AdminView.swift */; };
+		867C53C52767E66E00B0F542 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C42767E66E00B0F542 /* WelcomeView.swift */; };
+		867C53C72767E67B00B0F542 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C62767E67B00B0F542 /* CustomerView.swift */; };
+		867C53C92767F23900B0F542 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53C82767F23800B0F542 /* UserAuth.swift */; };
+		867C53CB2767F66100B0F542 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 867C53CA2767F66100B0F542 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		867C53B62767E38300B0F542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867C53B92767E38300B0F542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		867C53C02767E3E000B0F542 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
+		867C53C22767E65F00B0F542 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		867C53C42767E66E00B0F542 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		867C53C62767E67B00B0F542 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
+		867C53C82767F23800B0F542 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		867C53CA2767F66100B0F542 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,14 @@
 		867C53B12767E37D00B0F542 /* loginOrRegister */ = {
 			isa = PBXGroup;
 			children = (
+				867C53CA2767F66100B0F542 /* GoogleService-Info.plist */,
 				867C53B22767E37D00B0F542 /* loginOrRegisterApp.swift */,
 				867C53B42767E37D00B0F542 /* ContentView.swift */,
 				867C53C02767E3E000B0F542 /* AppNavigationView.swift */,
+				867C53C82767F23800B0F542 /* UserAuth.swift */,
+				867C53C62767E67B00B0F542 /* CustomerView.swift */,
+				867C53C42767E66E00B0F542 /* WelcomeView.swift */,
+				867C53C22767E65F00B0F542 /* AdminView.swift */,
 				867C53B62767E38300B0F542 /* Assets.xcassets */,
 				867C53B82767E38300B0F542 /* Preview Content */,
 			);
@@ -130,6 +145,7 @@
 			files = (
 				867C53BA2767E38300B0F542 /* Preview Assets.xcassets in Resources */,
 				867C53B72767E38300B0F542 /* Assets.xcassets in Resources */,
+				867C53CB2767F66100B0F542 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867C53C52767E66E00B0F542 /* WelcomeView.swift in Sources */,
 				867C53B52767E37D00B0F542 /* ContentView.swift in Sources */,
+				867C53C72767E67B00B0F542 /* CustomerView.swift in Sources */,
 				867C53B32767E37D00B0F542 /* loginOrRegisterApp.swift in Sources */,
+				867C53C32767E65F00B0F542 /* AdminView.swift in Sources */,
 				867C53C12767E3E000B0F542 /* AppNavigationView.swift in Sources */,
+				867C53C92767F23900B0F542 /* UserAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
